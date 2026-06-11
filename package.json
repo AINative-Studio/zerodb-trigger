@@ -1,0 +1,69 @@
+{
+  "name": "zerodb-trigger",
+  "version": "1.0.0",
+  "description": "Drop-in Trigger.dev replacement backed by ZeroDB event hooks. Define triggered jobs with zero config — auto-provisions on first use.",
+  "main": "index.cjs",
+  "module": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node node_modules/.bin/jest --config jest.config.cjs --forceExit",
+    "test:ci": "node node_modules/.bin/jest --config jest.config.cjs --forceExit --ci"
+  },
+  "keywords": [
+    "trigger",
+    "trigger-dev",
+    "trigger.dev",
+    "triggerdev",
+    "trigger-dev-alternative",
+    "background-jobs",
+    "event-driven",
+    "webhooks",
+    "serverless-functions",
+    "zerodb",
+    "ainative",
+    "auto-provisioning",
+    "event-hooks",
+    "job-queue",
+    "cron-jobs",
+    "scheduled-tasks",
+    "workflow",
+    "automation",
+    "cloud-functions",
+    "event-stream",
+    "mcp",
+    "ai-agent",
+    "agent-triggers",
+    "defineJob",
+    "event-bus"
+  ],
+  "author": "AINative Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AINative-Studio/zerodb-trigger"
+  },
+  "bugs": {
+    "url": "https://github.com/AINative-Studio/zerodb-trigger/issues"
+  },
+  "homepage": "https://zerodb.ai",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@jest/globals": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
