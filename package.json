@@ -1,6 +1,6 @@
 {
   "name": "zerodb-trigger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop-in Trigger.dev replacement backed by ZeroDB event hooks. Define triggered jobs with zero config — auto-provisions on first use.",
   "main": "index.cjs",
   "module": "index.js",
